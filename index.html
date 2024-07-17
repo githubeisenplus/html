@@ -1,4 +1,136 @@
-<!DOCTYPE>
-<html>
-<p>this is git site</p>
-<html>
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>داروخانه دکتر رضایی</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            direction: rtl;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            display: block;
+        }
+        nav ul li a:hover {
+            background-color: #575757;
+        }
+        main {
+            padding: 2rem;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        .section h2 {
+            margin-bottom: 1rem;
+            color: #333;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .product {
+            background-color: white;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            flex: 1 1 calc(33% - 2rem);
+            box-sizing: border-box;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .product h3 {
+            margin-top: 1rem;
+            font-size: 1.2rem;
+            color: #333;
+        }
+        .product p {
+            color: #666;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>داروخانه دکتر رضایی</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">صفحه اصلی</a></li>
+            <li><a href="#">درباره ما</a></li>
+            <li><a href="#">محصولات</a></li>
+            <li><a href="#">تماس با ما</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="section" id="about">
+            <h2>درباره ما</h2>
+            <p>داروخانه دکتر رضایی با بیش از 20 سال تجربه در ارائه بهترین خدمات دارویی و بهداشتی در خدمت شماست.</p>
+        </section>
+        <section class="section" id="products">
+            <h2>محصولات ما</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="product1.jpg" alt="محصول ۱">
+                    <h3>محصول ۱</h3>
+                    <p>توضیحات کوتاه در مورد محصول ۱.</p>
+                </div>
+                <div class="product">
+                    <img src="product2.jpg" alt="محصول ۲">
+                    <h3>محصول ۲</h3>
+                    <p>توضیحات کوتاه در مورد محصول ۲.</p>
+                </div>
+                <div class="product">
+                    <img src="product3.jpg" alt="محصول ۳">
+                    <h3>محصول ۳</h3>
+                    <p>توضیحات کوتاه در مورد محصول ۳.</p>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="contact">
+            <h2>تماس با ما</h2>
+            <p>آدرس: تهران، خیابان ولیعصر، پلاک ۱۰۱</p>
+            <p>تلفن: ۰۲۱-۱۲۳۴۵۶۷۸</p>
+            <p>ایمیل: info@example.com</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 داروخانه دکتر رضایی. تمامی حقوق محفوظ است.</p>
+    </footer>
+</body>
+</html>
